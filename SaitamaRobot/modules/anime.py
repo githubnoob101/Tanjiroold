@@ -458,17 +458,19 @@ def upcoming(update, context):
     update.effective_message.reply_text(upcoming_message)
     
 def anime_quote():
-    url = "https://animechanapi.xyz/api/quotes/random"
-    response = requests.get(url)
+    url = "https://animechan.vercel.app/api/random"
     # since text attribute returns dictionary like string
-    dic = json.loads(response.text)
-    quote = dic["data"][0]["quote"]
-    character = dic["data"][0]["character"]
-    anime = dic["data"][0]["anime"]
+    response = requests.get(url)
+    try:
+        dic = json.loads(response.text)
+    except Exception:
+        pass
+    quote = dic["quote"]
+    character = dic["character"]
+    anime = dic["anime"]
     return quote, character, anime
 
 
-@run_async
 def quotes(update: Update, context: CallbackContext):
     message = update.effective_message
     quote, character, anime = anime_quote()
@@ -483,7 +485,6 @@ def quotes(update: Update, context: CallbackContext):
     )
 
 
-@run_async
 def change_quote(update: Update, context: CallbackContext):
     query = update.callback_query
     chat = update.effective_chat

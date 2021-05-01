@@ -12,11 +12,11 @@ Modular Demon Slayer:Kimetsu no yaiba themed Telegram Bot for managing your grou
 
 A modular Telegram Python bot running on python3 with a sqlalchemy database and an entirely themed persona to make Tanjiro suitable for Anime and Manga group chats. 
 
-Can be found on telegram as [Tanjiro Kamado](https://t.me/).
+Can be found on telegram as [Tanjiro Kamado](https://t.me/TanjiroRobot).
 
-The Support group can be reached out to at [Tanjiro Kamado Support Support](https://t.me/TanjiroSupportchat), where you can ask for help about [Tanjiro](https://t.me/TanjiroKamadoRoBot), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
+The Support group can be reached out to at [Tanjiro Kamado Support Support](https://t.me/Tanjiro_Support), where you can ask for help about [Tanjiro](https://t.me/TanjiroKamadoRoBot), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
 
-News channel as at [Tanjiro Updates](https://t.me/TanjiroBoTUpdates) 
+News channel as at [Tanjiro Updates](https://t.me/Tanjiro_Updates) 
 
 ## How to setup/deploy.
 

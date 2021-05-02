@@ -190,4 +190,4 @@ Any other authorship/credits can be seen through the commits.
 
 Should any be missing kindly let us know at [One Punch Support](https://t.me/OnePunchSupport) or simply submit a pull request on the readme.
 
-Thanks For Reading
+Thanks For Reading❤️
